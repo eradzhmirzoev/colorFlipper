@@ -10,6 +10,7 @@ btn.addEventListener('click', function() {
 
     document.querySelector('body').style.backgroundColor = color;
     document.querySelector('.color').textContent = color;
+    document.querySelector('.color').style.color = color;
 })
 
 function getRandomNumber() {
